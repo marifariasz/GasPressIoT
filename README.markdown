@@ -77,11 +77,11 @@ O **GasPress IoT** é um sistema IoT que monitora pressão e concentração de g
 3. **Configurar Credenciais**:
    - Atualize as constantes no código:
      ```c
-     #define WIFI_SSID "TIM_ULTRAFIBRA_28A0"
-     #define WIFI_PASSWORD "64t4fu76eb"
+     #define WIFI_SSID "WIFI_SSID"
+     #define WIFI_PASSWORD "SENHA"
      #define MQTT_SERVER "192.168.1.9"
-     #define MQTT_USERNAME "mariana"
-     #define MQTT_PASSWORD "mariana"
+     #define MQTT_USERNAME "USERNAME"
+     #define MQTT_PASSWORD "PASSWORD"
      ```
 
 4. **Compilar e Carregar**:
@@ -151,22 +151,7 @@ O **GasPress IoT** é um sistema IoT que monitora pressão e concentração de g
 
 ---
 
-## 🛠️ Possíveis Melhorias
-
-- Adicionar suporte a TLS para maior segurança na comunicação MQTT. 🔒
-- Implementar um display OLED na placa para visualização local dos dados. 📺
-- Integrar sensores reais de pressão e gás em vez de simulação com joystick. 🌡️
-- Expandir o painel no celular com controles interativos para ajustar limites de alerta. 📲
-
----
-
-## 📝 Licença
-
-Este projeto é de código aberto e está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para usar, modificar e compartilhar! 😊
-
----
-
 **Desenvolvido por Mariana Farias da Silva**  
 **AULA IoT - Ricardo Prates - 001**  
-**Data: 27/05/2025**  
+**Data: 04/06/2025**  
 🌟 **Monitore o ambiente com GasPress IoT!** 🌟
