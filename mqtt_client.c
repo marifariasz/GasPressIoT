@@ -326,7 +326,7 @@ static void publish_gas(MQTT_CLIENT_DATA_T *state) {
     static float old_gas = -1.0f;
     const char *gas_key = full_topic(state, "/gas");
     float gas = read_onboard_gas(TEMPERATURE_UNITS);
-    bool led_on = (gas > 50.0f) || (read_onboard_pressure(TEMPERATURE_UNITS) > 80.0f);
+    bool led_on = (gas > 50.0f) || (read_onboard_pressure(TEMPERATURE_UNITS) > 60.0f);
     control_led(state, led_on);
     if (fabs(gas - old_gas) > 0.1f || old_gas == -1.0f) {
         old_gas = gas;
